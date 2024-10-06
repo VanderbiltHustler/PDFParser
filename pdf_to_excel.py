@@ -16,4 +16,4 @@ def pdf_to_excel(pdf_file_path, excel_file_path):
         print("No tables found in your pdf")
 
 
-pdf_to_excel('annual-security-report.pdf', 'vscpolicy.xlsx')
+pdf_to_excel('faculty-listing.pdf', 'faculty-listing.xlsx')
