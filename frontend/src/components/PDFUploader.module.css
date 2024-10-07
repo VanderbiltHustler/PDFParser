@@ -1,0 +1,20 @@
+.uploadForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .uploadButton {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .uploadButton:hover {
+    background-color: #d1d1d1;
+  }
+  

@@ -1,0 +1,113 @@
+html {
+  justify-content: center;
+}
+
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* #root {
+  width: 125%;
+} */
+
+/* Body styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+  width: 100%;
+}
+
+/* Container to center everything */
+.upload-container {
+  /* text-align: center; */
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Heading styles */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h1 span.gold-text {
+  color: #D4AF37; /* Vanderbilt gold */
+}
+
+/* Description text */
+p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+/* File upload form */
+.upload-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.centered-div {
+  align-items: center;
+}
+
+/* File input button styling */
+.upload-button {
+  /* background-color: #f0f0f0; */
+  background-color: #fddc5c;
+  border: 2px solid #ccc;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.upload-button:hover {
+  /* background-color: #d1d1d1; */
+  background-color: #f1e5ac;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  /* margin-top: 10px; */
+  font-weight: bold;
+  padding: 10px;
+  /* background-color: #f9f9f9;  */
+  /* border-radius: 20px; */
+}
+
+/* Footer credit link */
+.footer a {
+  text-decoration: none;
+  color: #888;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
