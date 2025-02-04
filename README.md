@@ -22,6 +22,7 @@ cd frontend
 npm start
 ```
 3. The webpage will load up (likely at local host 3000). Upload PDFs as required!
+4. Once finished, you can stop the servers by hitting "Ctrl-C" in your terminals.
 
 ## How to use this tool [old]
 1. Add your PDF file to the repository. You can do this by dragging and dropping the file into the folder.
