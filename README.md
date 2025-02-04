@@ -10,7 +10,20 @@ Updated: [9/22] <br>
 ## How this tool works
 This Python script uses the tabula library to read a PDF, build it into a dataframe, and export it as a csv. For pdfs with multiple tables, the script outputs each table as separate sheets. 
 
-## How to use this tool
+## [Fixed] How to use this tool
+1. After cloning, cd into backend and run app.py
+```
+cd backend
+python app.py
+```
+2. Now, in a separate terminal window, cd into frontend and enter npm start
+```
+cd frontend
+npm start
+```
+3. The webpage will load up (likely at local host 3000). Upload PDFs as required!
+
+## How to use this tool [old]
 1. Add your PDF file to the repository. You can do this by dragging and dropping the file into the folder.
 
 2. Add an empty Excel file to the repository. You can do this by right-clicking on the file explorer and selecting New File. Name the file with the .xlsx extension.
